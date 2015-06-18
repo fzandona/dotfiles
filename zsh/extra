@@ -1,0 +1,13 @@
+# Extra configuration
+
+# vi mode
+bindkey -v
+
+# Key bindings
+bindkey '^A' beginning-of-line
+bindkey '^D' delete-char
+bindkey '^E' end-of-line
+bindkey "^R" history-incremental-search-backward
+bindkey "^P" history-search-backward
+
+export EDITOR='vim'
