@@ -97,3 +97,6 @@ nnoremap <silent> <expr> $ ScreenMovement("$")
 set cursorline
 autocmd InsertEnter * set nocursorline
 autocmd InsertLeave * set cursorline
+
+" Notes.vim
+let g:notes_directories = ['~/Documents/Notes']
